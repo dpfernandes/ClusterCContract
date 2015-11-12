@@ -7,5 +7,14 @@ public class Passenger extends Person {
         super(firstName, lastName, CPR);
         this.isNative = isNative;
     }
+
+    public Boolean getIsNative() {
+        return isNative;
+    }
+
+    public void setIsNative(Boolean isNative) {
+        this.isNative = isNative;
+    }
+    
     
 }

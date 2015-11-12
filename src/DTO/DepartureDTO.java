@@ -1,11 +1,29 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package DTO;
 
 public class DepartureDTO {
+
     FerryDTO ferry;
-    RouteDTO route;    
+    RouteDTO route;
+
+    public DepartureDTO(FerryDTO ferry, RouteDTO route) {
+        this.ferry = ferry;
+        this.route = route;
+    }
+
+    public FerryDTO getFerry() {
+        return ferry;
+    }
+
+    public void setFerry(FerryDTO ferry) {
+        this.ferry = ferry;
+    }
+
+    public RouteDTO getRoute() {
+        return route;
+    }
+
+    public void setRoute(RouteDTO route) {
+        this.route = route;
+    }
+
 }
